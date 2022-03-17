@@ -32,9 +32,6 @@ android {
             // Inject app name for release
             resValue("string", "app_name", ProjectSetting.NAME_APP)
 
-            // Inject admob id for release
-            resValue("string", "admob_app_id", ProjectSetting.RELEASE_ADMOB_APP_ID)
-
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
