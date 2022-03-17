@@ -1,5 +1,7 @@
 ## juara-android (release-and-work-in-progress 👷🔧️👷‍♀️⛏)
-Repository Google Code Lab, JuaraAndroid Event
+[![Google Badge](https://img.shields.io/badge/Google%20Profile-faisalamircs-orange?style=flat-square)](https://g.dev/faisalamircs)
+[![Scan with Detekt](https://github.com/amirisback/juara-android/actions/workflows/detekt.yml/badge.svg)](https://github.com/amirisback/juara-android/actions/workflows/detekt.yml)
+- Repository Google Code Lab, JuaraAndroid Event
 
 ## Version Release
 This Is Latest Release
