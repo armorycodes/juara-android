@@ -44,7 +44,23 @@ object ProjectSetting {
 
     // ---------------------------------------------------------------------------------------------
 
+    const val MODULE_CORE_PROJECT = "coreproject"
+    const val MODULE_DATA_PRESISTANCE = "datapresistence"
+    const val MODULE_INTERNET = "internet"
+    const val MODULE_KOTLIN_BASICS = "kotlinbasics"
+    const val MODULE_LAYOUTS = "layouts"
+    const val MODULE_NAVIGATION = "navigation"
+    const val MODULE_WORK_MANAGER = "workmanager"
+
     const val PROJECT_APP_ID = "$APP_DOMAIN.$APP_PLAY_CONSOLE.$APP_NAME"
+    const val PROJECT_MODULE_CORE_PROJECT = "$PROJECT_APP_ID.$MODULE_CORE_PROJECT"
+    const val PROJECT_MODULE_DATA_PRESISTANCE = "$PROJECT_APP_ID.$MODULE_DATA_PRESISTANCE"
+    const val PROJECT_MODULE_INTERNET = "$PROJECT_APP_ID.$MODULE_INTERNET"
+    const val PROJECT_MODULE_KOTLIN_BASICS = "$PROJECT_APP_ID.$MODULE_KOTLIN_BASICS"
+    const val PROJECT_MODULE_LAYOUTS = "$PROJECT_APP_ID.$MODULE_LAYOUTS"
+    const val PROJECT_MODULE_NAVIGATION = "$PROJECT_APP_ID.$MODULE_NAVIGATION"
+    const val PROJECT_MODULE_WORK_MANAGER = "$PROJECT_APP_ID.$MODULE_WORK_MANAGER"
+
     const val PROJECT_VERSION_CODE = (VERSION_MAJOR * 100) + (VERSION_MINOR * 10) + (VERSION_PATCH * 1)
     const val PROJECT_VERSION_NAME = "$VERSION_MAJOR.$VERSION_MINOR.$VERSION_PATCH"
 

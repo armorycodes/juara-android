@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -8,7 +10,7 @@ android {
     compileSdk = ProjectSetting.PROJECT_COMPILE_SDK
 
     defaultConfig {
-        applicationId = ProjectSetting.PROJECT_APP_ID
+        applicationId = ProjectSetting.PROJECT_MODULE_KOTLIN_BASICS
         minSdk = ProjectSetting.PROJECT_MIN_SDK
         targetSdk = ProjectSetting.PROJECT_TARGET_SDK
         versionCode = ProjectSetting.PROJECT_VERSION_CODE
@@ -18,27 +20,23 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        
+
         // Inject app name for debug
-        resValue("string", "app_name", ProjectSetting.NAME_APP_DEBUG)
-        
+        resValue("string", "app_name", ProjectSetting.MODULE_KOTLIN_BASICS)
+
     }
 
-    
+
     buildTypes {
-        getByName("release") {
+        release {
             isMinifyEnabled = false
-
-            // Inject app name for release
-            resValue("string", "app_name", ProjectSetting.NAME_APP)
-
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
         }
     }
-
+    
     buildFeatures {
         viewBinding = true
     }
@@ -54,7 +52,7 @@ android {
         }
     }
 
-    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    tasks.withType<KotlinCompile> {
         kotlinOptions {
             jvmTarget = JavaVersion.VERSION_11.toString()
         }
@@ -68,9 +66,4 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.4.1")
     implementation("com.google.android.material:material:1.5.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.3")
-    
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.3")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
-    
 }
