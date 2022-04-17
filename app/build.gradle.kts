@@ -25,7 +25,7 @@ android {
         setProperty("archivesBaseName", "${ProjectSetting.NAME_APK}(${versionName})")
 
         // Inject app name for debug
-        resValue("string", "app_name", ProjectSetting.MODULE_APP)
+        resValue("string", "app_name", "Berita Indonesia")
 
     }
 
@@ -54,7 +54,7 @@ android {
             signingConfig = signingConfigs.getByName("release")
 
             // Inject app name for release
-            resValue("string", "app_name", ProjectSetting.APP_NAME)
+            resValue("string", "app_name", "Berita Indonesia")
 
         }
     }
