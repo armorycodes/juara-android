@@ -50,6 +50,23 @@
     
 </table>
 
+## ScreenShoot
+<table>
+
+<tr>
+    <th>SS 1</th>
+    <th>SS 2</th>
+    <th>SS 3</th>
+</tr>
+
+<tr>
+    <td><img width="200px" height="320px" src="docs/image/main/ss_1.png"></td>
+    <td><img width="200px" height="320px" src="docs/image/main/ss_2.png"></td>
+    <td><img width="200px" height="320px" src="docs/image/main/ss_3.gif"></td>
+</tr>
+
+</table>
+
 ## Version Release
 This Is Latest Release
 
@@ -58,6 +75,7 @@ This Is Latest Release
 ### Build this project without clone
 - Build Using Github Action Click below
 - https://github.com/amirisback/juara-android/actions/workflows/android-ci.yml
+![](docs/image/github_action.png?raw=true)
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
@@ -77,4 +95,8 @@ Waiting for your contribute
 - Please enjoy and don't forget fork and give a star
 - Don't Forget Follow My Github Account
 
+## MAD Score Card
 ![](docs/image/mad_score.png?raw=true)
+
+## Google Profile
+![](docs/image/google_profile.png?raw=true)
