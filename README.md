@@ -53,8 +53,11 @@
 ## Version Release
 This Is Latest Release
 
-    ~ Comming Soon
-    $version_release = comming-soon
+    $version_release = 1.0.0
+
+### Build this project without clone
+- Build Using Github Action Click below
+- https://github.com/amirisback/juara-android/actions/workflows/android-ci.yml
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
@@ -73,3 +76,5 @@ Waiting for your contribute
 ## Attention !!!
 - Please enjoy and don't forget fork and give a star
 - Don't Forget Follow My Github Account
+
+![](docs/image/mad_score.png?raw=true)
