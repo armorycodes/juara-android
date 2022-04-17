@@ -4,6 +4,7 @@
 [![Android CI](https://github.com/amirisback/juara-android/actions/workflows/android-ci.yml/badge.svg)](https://github.com/amirisback/juara-android/actions/workflows/android-ci.yml)
 
 - Repository Google Code Lab, JuaraAndroid Event
+- Demo Video (https://youtube.com/shorts/O8pWtNQS64E)
 
 ## Course List
 <table>
@@ -56,13 +57,11 @@
 <tr>
     <th>SS 1</th>
     <th>SS 2</th>
-    <th>SS 3</th>
 </tr>
 
 <tr>
-    <td><img width="200px" height="320px" src="docs/image/ss_1.png"></td>
-    <td><img width="200px" height="320px" src="docs/image/ss_2.png"></td>
-    <td><img width="200px" height="320px" src="docs/image/ss_3.gif"></td>
+    <td><img width="200px" height="350px" src="docs/image/ss_1.png"></td>
+    <td><img width="200px" height="350px" src="docs/image/ss_2.png"></td>
 </tr>
 
 </table>
