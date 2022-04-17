@@ -55,10 +55,15 @@ android {
 
 dependencies {
 
-    implementation(Androidx.appCompat)
-    implementation(Androidx.constraintLayout)
-    implementation(Androidx.Core.ktx)
-    implementation(Androidx.Work.runtimeKtx)
-    implementation(Google.material)
+    api(Androidx.appCompat)
+    api(Androidx.constraintLayout)
+    api(Androidx.Core.ktx)
+    api(Androidx.Work.runtimeKtx)
+    api(Google.material)
+
+    api(Frogo.sdk)
+    api(Frogo.ui)
+    api(Frogo.consumeApi)
+    api(Frogo.recyclerView)
 
 }

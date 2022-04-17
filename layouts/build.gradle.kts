@@ -73,9 +73,5 @@ dependencies {
     implementation(Androidx.Core.ktx)
     implementation(Androidx.Work.runtimeKtx)
     implementation(Google.material)
-
-    testImplementation(Androidx.junit4)
-    androidTestImplementation(Androidx.junitAndroidTest)
-    androidTestImplementation(Androidx.espressoCore)
     
 }

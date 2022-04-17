@@ -44,6 +44,7 @@ object ProjectSetting {
 
     // ---------------------------------------------------------------------------------------------
 
+    const val MODULE_APP = "app"
     const val MODULE_CORE_PROJECT = "coreproject"
     const val MODULE_DATA_PRESISTANCE = "datapresistence"
     const val MODULE_INTERNET = "internet"
@@ -53,6 +54,7 @@ object ProjectSetting {
     const val MODULE_WORK_MANAGER = "workmanager"
 
     const val PROJECT_APP_ID = "$APP_DOMAIN.$APP_PLAY_CONSOLE.$APP_NAME"
+    const val PROJECT_MODULE_APP = "$PROJECT_APP_ID.$MODULE_APP"
     const val PROJECT_MODULE_CORE_PROJECT = "$PROJECT_APP_ID.$MODULE_CORE_PROJECT"
     const val PROJECT_MODULE_DATA_PRESISTANCE = "$PROJECT_APP_ID.$MODULE_DATA_PRESISTANCE"
     const val PROJECT_MODULE_INTERNET = "$PROJECT_APP_ID.$MODULE_INTERNET"

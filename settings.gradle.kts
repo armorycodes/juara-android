@@ -26,3 +26,4 @@ include(
     ":workmanager",
     ":coreproject"
 )
+include(":app")
