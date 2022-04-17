@@ -60,9 +60,9 @@
 </tr>
 
 <tr>
-    <td><img width="200px" height="320px" src="docs/image/main/ss_1.png"></td>
-    <td><img width="200px" height="320px" src="docs/image/main/ss_2.png"></td>
-    <td><img width="200px" height="320px" src="docs/image/main/ss_3.gif"></td>
+    <td><img width="200px" height="320px" src="docs/image/ss_1.png"></td>
+    <td><img width="200px" height="320px" src="docs/image/ss_2.png"></td>
+    <td><img width="200px" height="320px" src="docs/image/ss_3.gif"></td>
 </tr>
 
 </table>
