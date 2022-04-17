@@ -87,9 +87,30 @@ dependencies {
     implementation(project(DependencyGradle.PATH_CORE_PROJECT))
 
     implementation(Androidx.appCompat)
+    implementation(Androidx.appCompatResources)
+    implementation(Androidx.activityKtx)
+    implementation(Androidx.fragmentKtx)
     implementation(Androidx.constraintLayout)
+    implementation(Androidx.preferenceKtx)
+
     implementation(Androidx.Core.ktx)
     implementation(Androidx.Work.runtimeKtx)
+    implementation(Androidx.Lifecycle.runtimeKtx)
+    implementation(Androidx.Compose.activity)
+
+    implementation(Androidx.Room.runtime)
+    implementation(Androidx.Room.ktx)
+    implementation(Androidx.Room.rxJava3)
+
     implementation(Google.material)
+
+    implementation(Koin.core)
+    implementation(Koin.android)
+    implementation(Koin.androidCompat)
+    implementation(Koin.androidxWorkManager)
+    implementation(Koin.androidxCompose)
+
+    kapt(Androidx.Lifecycle.compiler)
+    kapt(Androidx.Room.compiler)
 
 }
